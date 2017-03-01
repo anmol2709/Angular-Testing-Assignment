@@ -1,0 +1,39 @@
+<h1>Create Your Task Here</h1>
+
+<div class="container">
+    <form (ngSubmit)="submit()">
+
+    <table>
+      <tr>
+      <td><label >Date</label></td>
+      <td><input [(ngModel)]="task.date" type="text"  id="date"  name="date" required></td>
+    </tr>
+
+      <tr>
+      <td><label >Name</label></td>
+      <td><input [(ngModel)]="task.title" type="text" id="title" name="title" required></td>
+      </tr>
+
+      <tr>
+        <td> <label >Description</label></td>
+        <td> <input [(ngModel)]="task.description"  type="text"  id="description"  name="description" required ></td>
+       </tr>
+
+    <tr>
+      <td>  <label >Priority</label></td>
+      <td> <select [(ngModel)]="task.priority"  id="priority"  name="priority"   class="selectpicker" required>
+        <option value="high">High</option>
+        <option value="medium">Medium</option>
+        <option value="low">Low</option>
+    </select></td>
+    </tr>
+</table>
+         <br>
+      <br>
+      <button class="btn-success"  >Save Task</button>
+
+    </form>
+  <br>
+  <button class="btn-danger" (click)="goHome()">Exit Without Saving</button>
+
+</div>

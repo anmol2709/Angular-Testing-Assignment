@@ -1,0 +1,41 @@
+<h1>LIST OF TASKS!!!!!!</h1>
+<table class="table">
+    <tr>
+      <th>
+        Date
+      </th>
+      <th>
+        Task Name
+      </th>
+      <th>
+        Description
+      </th>
+      <th>
+        Priority
+      </th>
+<br>
+    </tr>
+    <tr *ngFor="let task of tasks; let i = index">
+      <td>
+        {{task.date}}
+      </td>
+      <td>
+        {{task.title}}
+      </td>
+      <td>
+        {{task.description}}
+      </td>
+      <td>
+        {{task.priority}}
+      </td>
+      <span>
+        <button (click)="edit(i)" class="btn-info" >Edit</button>
+        <button (click)="done(i)" class="btn-danger">Done</button>
+      </span>
+    </tr>
+
+  </table>
+<br><br>
+  <div class="row">
+  <button (click)="goHome()"  class="btn-info">Home</button>
+</div>

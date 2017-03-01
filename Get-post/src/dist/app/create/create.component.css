@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+  color: blueviolet;
+  background-color: lightgray;
+}
+
+button{
+  text-align: center;
+  padding:4px;
+  border-radius: 20%;
+}
+
+input{
+  text-align: center;
+  padding:4px;
+  border-radius: 20%;
+}
+
+
+div{
+  align-content: center;
+  text-align: center;
+}

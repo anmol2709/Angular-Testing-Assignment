@@ -1,0 +1,17 @@
+h1{
+  text-align: center;
+  color: blueviolet;
+  background-color: lightgray;
+  padding: 2%;
+}
+
+button{
+  text-align: center;
+  padding:4px;
+  border-radius: 20%;
+  margin: 2%;
+}
+
+div{
+  text-align: center;
+}

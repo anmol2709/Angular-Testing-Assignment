@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+  color: blueviolet;
+  background-color: lightgray;
+}
+th{
+  border: 2px dotted black;
+  color: black;
+  background-color: red;
+  text-align: center;
+  font-style: italic;
+}
+td{
+  border: 2px dotted black;
+  color: red;
+  text-align: center;
+}
+
+.btn{
+  text-align: center;
+  padding:4px;
+  border-radius: 20%;
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+div{
+  text-align: center;
+}
